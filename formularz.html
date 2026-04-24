@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nawigacja">
+        <ul class="tp">
+            <li class="navi">
+                <a href="#tp">Podstrony ▼</a>
+                <ul class="navi-menu">
+                    <li><a href="index.html">Treść</a></li>
+                    <li><a href="obrazki.html">Obrazki</a></li>
+                    <li><a href="ostronie.html">O stronie</a></li>
+                </ul>
+            </li>
+    </nav>
+
+    <main class="content">
+        <form class="survey-form" action="#" method="post">
+            <h1>Formularz</h1>
+            <fieldset>
+                <legend>Ktora cecha jest dla ciebie najważniejsza w telefonie?</legend>
+                <label><input type="radio" name="pytanie"> Bateria</label>
+                <label><input type="radio" name="pytanie"> Wydajnosc</label>
+                <label><input type="radio" name="pytanie"> Aparat</label>
+            </fieldset>
+            <fieldset>
+                <legend>W jakich przedzialach cenowych zazwyczaj kupujesz telefon?</legend>
+                <label><input type="radio" name="pytanie2"> Poniżej 1000 zł</label>
+                <label><input type="radio" name="pytanie2"> 1000-2000 zł</label>
+                <label><input type="radio" name="pytanie2"> Powyżej 2000 zł</label>
+            </fieldset>
+            <fieldset>
+                <legend>Jaka jest twoja ulubiona marka telefonu?</legend>
+                <label><input type="radio" name="pytanie3"> Samsung</label>
+                <label><input type="radio" name="pytanie3"> Apple</label>
+                <label><input type="radio" name="pytanie3"> Xiaomi</label>
+                <label><input type="radio" name="pytanie3"> Oppo</label>
+                <label><input type="radio" name="pytanie3"> Żadne z powyższych</label>
+            </fieldset>
+            <fieldset>
+                <legend>Jaki był twój ulubiony telefon?</legend>
+                <label><input type="text" name="pytanie4" placeholder="Wpisz nazwę telefonu"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Czy jesteś zadowolony ze swojego telefonu?</legend>
+                <label><input type="radio" name="pytanie5" > Tak</label>
+                <label><input type="radio" name="pytanie5" > Nie</label>
+            </fieldset>
+            <button type="submit">Wyślij</button>
+        </form>
+    </main>
+</body>
+</html>
